@@ -8,15 +8,9 @@ main {
     height: 500px;
 }
 
-
-/* 
-body {
-    background-color: #fff;
-} */
-
 header {
     width: 100%;
-    background-color: pink;
+    background-color: #fff;
 }
 
 header .head {
@@ -44,6 +38,10 @@ header .center {
 
 header ul {
     margin: -20px;
+    height: 32px;
+    width: 600px;
+    line-height: 32px;
+    background-color: pink;
 }
 
 header .center li {
@@ -56,14 +54,25 @@ header .center li {
 
 header .right {
     width: 100px;
+    height: 32px;
+    background-color: aqua;
+    line-height: 32px;
+    margin-top: -12px;
     float: right;
+    position: relative;
+}
+
+header .right img {
+    position: absolute;
+    left: -25px;
+    top: 3px;
 }
 
 header .right button {
-    color: #fe5341;
+    color: #ff0000;
     background-color: #fff;
-    border-color: #fe5341;
-    padding: 3px 6px;
+    border-color: #ff442c;
+    padding: 5px 5px;
 }
 
 footer {
