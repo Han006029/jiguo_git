@@ -1,0 +1,32 @@
+/* 版心 w */
+.W {
+    width: 1080px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+header {
+    width: 1080px;
+    height: 75px;
+    background-color: pink;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    width: 135px;
+    height: 75px;
+    background-color: pink;
+    background: url(../img/logonew.png) no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+.register{
+    float: right;
+    width: 120px;
+    height: 100%;
+    background-color: aqua;
+}
